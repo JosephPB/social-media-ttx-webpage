@@ -195,6 +195,33 @@ const posts = [
       note: "Click anywhere on this card to return to the post.",
     },
   },
+  {
+    id: 8,
+    platform: "facebook",
+    profileName: "Syrian News",
+    profileHandle: null,
+    verified: false,
+    profilePicture: "assets/profiles/syria_flag.webp",
+    timestamp: "14 April 2026 at 17:02",
+    content:
+      "UNDOF patrol activity observed in Quneitra countryside\nResidents reported seeing a United Nations Disengagement Observer Force (UNDOF) patrol moving through several locations in southern Quneitra earlier today.\nUNDOF regularly conducts patrols to monitor the ceasefire agreement between Syria and Israel in the area of separation.\nLocal sources also reported Israeli military activity in nearby areas earlier in the day, though no official statements have been issued regarding the incidents.\nUNDOF’s mandate includes observing and reporting any violations of the 1974 disengagement agreement.",
+    media: null,
+    metrics: {
+      likes: "1,689",
+      comments: 206,
+      shares: 587,
+    },
+    profileMeta: {
+      intro: "National Syrian news outlet",
+      bio: "Keeping citizens informed through thorough journalism",
+      location: "Damascus",
+      joined: "Joined April 2016",
+      friends: null,
+      followers: "102.8K followers",
+      education: null,
+      note: "Click anywhere on this card to return to the post.",
+    },
+  },
 ];
 
 const postsGrid = document.getElementById("postsGrid");
