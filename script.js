@@ -556,6 +556,21 @@ function renderPosts() {
   bindFlipEvents();
 }
 
+function setFlipCardHeight(flipCard) {
+  const front = flipCard.querySelector(".flip-face.front");
+  const back = flipCard.querySelector(".flip-face.back");
+  const inner = flipCard.querySelector(".flip-card-inner");
+
+  if (!front || !back || !inner) return;
+
+  const isFlipped = flipCard.classList.contains("is-flipped");
+  const activeFace = isFlipped ? back : front;
+
+  const activeHeight = activeFace.scrollHeight;
+  inner.style.height = `${activeHeight}px`;
+  flipCard.style.height = `${activeHeight}px`;
+}
+
 function resizeGridItem(item) {
   const grid = document.querySelector(".posts-grid");
   const rowHeight = parseInt(
@@ -563,11 +578,14 @@ function resizeGridItem(item) {
     10,
   );
   const rowGap = parseInt(getComputedStyle(grid).getPropertyValue("gap"), 10);
-  const content = item.querySelector(".flip-card");
+  const flipCard = item.querySelector(".flip-card");
 
-  const rowSpan = Math.ceil(
-    (content.getBoundingClientRect().height + rowGap) / (rowHeight + rowGap),
-  );
+  if (!flipCard) return;
+
+  setFlipCardHeight(flipCard);
+
+  const cardHeight = flipCard.getBoundingClientRect().height;
+  const rowSpan = Math.ceil((cardHeight + rowGap) / (rowHeight + rowGap));
   item.style.gridRowEnd = `span ${rowSpan}`;
 }
 
@@ -581,10 +599,17 @@ function bindFlipEvents() {
     trigger.addEventListener("click", (event) => {
       const flipCard = event.currentTarget.closest(".flip-card");
       if (!flipCard) return;
+
       flipCard.classList.add("is-flipped");
-      setTimeout(resizeAllGridItems, 50);
-      setTimeout(resizeAllGridItems, 600);
-      setTimeout(resizeAllGridItems, 1050);
+      setFlipCardHeight(flipCard);
+
+      const gridItem = flipCard.closest(".grid-item");
+      if (gridItem) resizeGridItem(gridItem);
+
+      setTimeout(() => {
+        setFlipCardHeight(flipCard);
+        if (gridItem) resizeGridItem(gridItem);
+      }, 1000);
     });
   });
 
@@ -592,10 +617,17 @@ function bindFlipEvents() {
     backFace.addEventListener("click", (event) => {
       const flipCard = event.currentTarget.closest(".flip-card");
       if (!flipCard) return;
+
       flipCard.classList.remove("is-flipped");
-      setTimeout(resizeAllGridItems, 50);
-      setTimeout(resizeAllGridItems, 600);
-      setTimeout(resizeAllGridItems, 1050);
+      setFlipCardHeight(flipCard);
+
+      const gridItem = flipCard.closest(".grid-item");
+      if (gridItem) resizeGridItem(gridItem);
+
+      setTimeout(() => {
+        setFlipCardHeight(flipCard);
+        if (gridItem) resizeGridItem(gridItem);
+      }, 1000);
     });
   });
 }
