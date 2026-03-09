@@ -160,28 +160,15 @@ body {
 }
 
 .posts-grid {
-  column-count: 3;
-  column-gap: var(--grid-gap);
-  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(320px, 1fr));
+  grid-auto-rows: var(--grid-row-height);
+  gap: var(--grid-gap);
+  align-items: start;
 }
 
 .grid-item {
-  display: inline-block;
-  width: 100%;
-  margin: 0 0 var(--grid-gap);
-  break-inside: avoid;
-}
-
-@media (max-width: 1200px) {
-  .posts-grid {
-    column-count: 2;
-  }
-}
-
-@media (max-width: 780px) {
-  .posts-grid {
-    column-count: 1;
-  }
+  grid-row-end: span 1;
 }
 
 .flip-card {

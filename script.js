@@ -229,7 +229,7 @@ const authOverlay = document.getElementById("authOverlay");
 const authForm = document.getElementById("authForm");
 const authInput = document.getElementById("authPassword");
 const authError = document.getElementById("authError");
-const AUTH_PASSWORD = "undof";
+const AUTH_PASSWORD = "UNDOF";
 let isUnlocked = false;
 
 function escapeHtml(text) {
@@ -586,7 +586,7 @@ function renderPost(post) {
 function renderPosts() {
   if (!isUnlocked) return;
   postsGrid.innerHTML = posts.map(renderPost).join("");
-  updateAllCardHeights();
+  resizeAllGridItems();
   bindFlipEvents();
 }
 
@@ -605,6 +605,29 @@ function setFlipCardHeight(flipCard) {
   flipCard.style.height = `${activeHeight}px`;
 }
 
+function resizeGridItem(item) {
+  const grid = document.querySelector(".posts-grid");
+  const rowHeight = parseInt(
+    getComputedStyle(grid).getPropertyValue("grid-auto-rows"),
+    10,
+  );
+  const rowGap = parseInt(getComputedStyle(grid).getPropertyValue("gap"), 10);
+  const flipCard = item.querySelector(".flip-card");
+
+  if (!flipCard) return;
+
+  setFlipCardHeight(flipCard);
+
+  const cardHeight = flipCard.getBoundingClientRect().height;
+  const rowSpan = Math.ceil((cardHeight + rowGap) / (rowHeight + rowGap));
+  item.style.gridRowEnd = `span ${rowSpan}`;
+}
+
+function resizeAllGridItems() {
+  const items = document.querySelectorAll(".grid-item");
+  items.forEach((item) => resizeGridItem(item));
+}
+
 function bindFlipEvents() {
   document.querySelectorAll('[data-flip-trigger="true"]').forEach((trigger) => {
     trigger.addEventListener("click", (event) => {
@@ -614,8 +637,12 @@ function bindFlipEvents() {
       flipCard.classList.add("is-flipped");
       setFlipCardHeight(flipCard);
 
+      const gridItem = flipCard.closest(".grid-item");
+      if (gridItem) resizeGridItem(gridItem);
+
       setTimeout(() => {
         setFlipCardHeight(flipCard);
+        if (gridItem) resizeGridItem(gridItem);
       }, 1000);
     });
   });
@@ -628,16 +655,14 @@ function bindFlipEvents() {
       flipCard.classList.remove("is-flipped");
       setFlipCardHeight(flipCard);
 
+      const gridItem = flipCard.closest(".grid-item");
+      if (gridItem) resizeGridItem(gridItem);
+
       setTimeout(() => {
         setFlipCardHeight(flipCard);
+        if (gridItem) resizeGridItem(gridItem);
       }, 1000);
     });
-  });
-}
-
-function updateAllCardHeights() {
-  document.querySelectorAll(".flip-card").forEach((flipCard) => {
-    setFlipCardHeight(flipCard);
   });
 }
 
@@ -685,7 +710,7 @@ function initAuth() {
 }
 
 window.addEventListener("load", initAuth);
-window.addEventListener("resize", updateAllCardHeights);
+window.addEventListener("resize", resizeAllGridItems);
 
 document.addEventListener(
   "load",
@@ -696,7 +721,7 @@ document.addEventListener(
         event.target.classList.contains("media-image") ||
         event.target.classList.contains("video-thumbnail"))
     ) {
-      updateAllCardHeights();
+      resizeAllGridItems();
     }
   },
   true,
