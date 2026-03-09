@@ -1,4 +1,4 @@
-Social Post Exercise Website (Updated)
+# Social Post Exercise Website
 
 Files:
 - index.html

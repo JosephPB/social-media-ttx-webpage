@@ -2,34 +2,30 @@ const posts = [
   {
     id: 1,
     platform: "facebook",
-    profileName: "Maya Haddad",
+    profileName: "Mina Haddid",
     profileHandle: null,
     verified: false,
-    profilePicture: "assets/profiles/maya.jpg",
-    timestamp: "7 March 2026 at 09:14",
+    profilePicture: "assets/profiles/castle.jpg",
+    timestamp: "14 April 2026 at 07:58",
     content:
-      "I passed the road near the crossing this morning and saw a large convoy again. People need clear information because rumours are spreading faster than facts. Has anyone actually confirmed what they were doing there?",
-    media: {
-      type: "image",
-      url: "assets/media/convoy.jpg",
-      alt: "Convoy on a road"
-    },
+      "Does anyone know what is happening near Al-Rafid this morning? \nJust saw UNDOF vehicles driving toward the area and then not long after that there were Israeli military vehicles moving along the road near the fields \nMy cousin said drones were flying overhead last night too.\nI hope things don't get bad again.",
+    media: null,
     metrics: {
-      likes: "1.2K",
-      comments: 184,
-      shares: 92
+      likes: "54",
+      comments: 5,
+      shares: 15,
     },
     profileMeta: {
       intro: "Local resident following developments in the area",
       bio: "Posts local observations and community updates. Interested in safety, transport disruptions, and public information.",
-      location: "Quneitra countryside",
+      location: "Golan Heights",
       joined: "Joined March 2019",
       friends: "482 friends",
       followers: "1.1K followers",
       work: "Community volunteer",
       education: "Studied at Damascus University",
-      note: "Click anywhere on this card to return to the post."
-    }
+      note: "Click anywhere on this card to return to the post.",
+    },
   },
   {
     id: 2,
@@ -37,21 +33,19 @@ const posts = [
     profileName: "Daniel Kareem",
     profileHandle: "@danielk_reports",
     verified: true,
-    profilePicture: "assets/profiles/daniel.jpg",
-    timestamp: "7 Mar 2026 · 10:02",
+    profilePicture: "assets/profiles/man_looking_out.jpg",
+    timestamp: "14 Apr 2026 · 08:46",
     content:
-      "Residents in the area are posting conflicting claims this morning. Some say this is routine movement, others are framing it as something much bigger. Worth being careful before amplifying unverified clips.",
+      "Seeing people post about UNDOF vehicles heading toward Al-Rafid this morning.\nA few minutes later someone said Israeli vehicles were also seen nearby.\nNot sure what’s going on but it feels like something is building again 😬\n#Quneitra #Syria",
     media: {
-      type: "video",
-      url: "assets/media/clip.mp4",
-      thumbnail: "assets/media/clip-thumb.jpg",
-      alt: "Video thumbnail showing a street scene"
+      type: "image",
+      url: "assets/media/tank_with_flag.jpg",
     },
     metrics: {
-      replies: 46,
-      reposts: 71,
-      likes: 502,
-      views: "18.4K"
+      replies: 12,
+      reposts: 23,
+      likes: 76,
+      views: "258",
     },
     profileMeta: {
       intro: "Monitoring local developments and online claims",
@@ -60,124 +54,147 @@ const posts = [
       joined: "Joined May 2021",
       following: "389 Following",
       followers: "24.8K Followers",
-      website: "fieldwatch.example",
-      note: "Click anywhere on this card to return to the post."
-    }
+      website: "golanwatch.com",
+      note: "Click anywhere on this card to return to the post.",
+    },
   },
   {
     id: 3,
     platform: "facebook",
-    profileName: "Rami Nasser",
+    profileName: "Golan News 24",
     profileHandle: null,
     verified: false,
-    profilePicture: "assets/profiles/rami.jpg",
-    timestamp: "7 March 2026 at 11:47",
+    profilePicture: "assets/profiles/mount.webp",
+    timestamp: "14 April 2026 at 10:41",
     content:
-      "Genuinely asking: why does every second clip online come with a dramatic caption and no context? My neighbours are already repeating things as if they are confirmed. Please check before sharing.",
+      "🚨 Residents in southern Quneitra report that UNDOF peacekeepers are allowing Israeli occupation forces to pass through the buffer zone without any resistance.\nLocal sources say Israeli military vehicles crossed near Al-Rafid while UN vehicles remained nearby but did not intervene.\nPeople in the area say this is not the first time UN forces have watched silently while Israeli troops enter Syrian territory.\nThrough these repeated incursions, Israel continues to violate the ceasefire agreement while the international community remains silent.\nMany residents are asking: what is the role of UNDOF if violations continue unchecked?",
     media: null,
     metrics: {
       likes: 428,
       comments: 67,
-      shares: 21
+      shares: 21,
     },
     profileMeta: {
-      intro: "Interested in local news and media literacy",
-      bio: "Mostly shares family photos and local commentary. Occasionally posts about community concerns and rumours spreading online.",
-      location: "Near Khan Arnabah",
+      intro: "Local news of the Golan Heights",
+      bio: "News outlets covering 24/7 news in the occupied Golan",
+      location: "Golan Heights",
       joined: "Joined August 2017",
-      friends: "731 friends",
-      followers: "640 followers",
+      friends: null,
+      followers: "1.2k followers",
       work: "Small business owner",
-      note: "Click anywhere on this card to return to the post."
-    }
+      note: "Click anywhere on this card to return to the post.",
+    },
   },
   {
     id: 4,
     platform: "x",
     profileName: "Leila S.",
     profileHandle: "@LeilaSignals",
-    verified: false,
-    profilePicture: "assets/profiles/leila.jpg",
-    timestamp: "7 Mar 2026 · 12:21",
+    verified: true,
+    profilePicture: "assets/profiles/plateau.jpeg",
+    timestamp: "12 Apr 2026 · 12:51",
     content:
-      "This same screenshot is now circulating on multiple channels with slightly different wording. That usually tells you people are copy-pasting rather than reporting what they actually saw.",
-    media: {
-      type: "image",
-      url: "assets/media/checkpoint.jpg",
-      alt: "Checkpoint image"
-    },
+      "Residents in southern Quneitra say UNDOF peacekeepers stood by while Israeli forces crossed near Al-Rafid earlier today.\nLocal accounts claim UN vehicles were present but did not intervene.\nNo independent confirmation yet.\n#UNDOF #Syria #Quneitra",
+    media: null,
     metrics: {
       replies: 13,
       reposts: 39,
       likes: 211,
-      views: "9,803"
+      views: "9,803",
     },
     profileMeta: {
-      intro: "Tracks cross-platform narrative spread",
-      bio: "Posts about repetition patterns, coordination signals, and visual markers of copied content.",
-      location: "Middle East monitoring network",
+      intro: "Concerned citizen",
+      bio: "Posts about my daughter and traditional family life",
+      location: "My family",
       joined: "Joined January 2023",
       following: "198 Following",
       followers: "5,420 Followers",
-      website: "signalsdesk.example",
-      note: "Click anywhere on this card to return to the post."
-    }
+      website: null,
+      note: "Click anywhere on this card to return to the post.",
+    },
   },
   {
     id: 5,
     platform: "facebook",
-    profileName: "Nadine Khoury",
+    profileName: "Shepherd lookout",
     profileHandle: null,
     verified: false,
-    profilePicture: "assets/profiles/nadine.jpg",
-    timestamp: "7 March 2026 at 13:06",
+    profilePicture: "assets/profiles/goat.png",
+    timestamp: "14 April 2026 at 11:07",
     content:
-      "The official page said there would be community engagement this afternoon, but half the comments underneath are talking about completely unrelated clips. This is exactly how confusion spreads during tense periods.",
+      "Residents in southern Quneitra report that UNDOF peacekeepers are allowing Israeli occupation forces to pass through the buffer zone without any resistance.\nLocal sources say Israeli military vehicles crossed near Al-Rafid while UN vehicles remained nearby but did not intervene.\nPeople in the area say this is not the first time UN forces have watched silently while Israeli troops enter Syrian territory.\nThrough these repeated incursions, Israel continues to violate the ceasefire agreement while the international community remains silent.\nMany residents are asking: what is the role of UNDOF if violations continue unchecked?",
     media: null,
     metrics: {
       likes: 684,
       comments: 93,
-      shares: 37
+      shares: 37,
     },
     profileMeta: {
-      intro: "Follows local institutions and public messaging",
-      bio: "Interested in how official communication is received online and how unrelated rumours can quickly dominate discussion threads.",
-      location: "Damascus",
+      intro: "Public messaging on local issues of concern",
+      bio: "Interested in farming news, and issues of local people",
+      location: "GH, Syria",
       joined: "Joined November 2016",
       friends: "913 friends",
       followers: "1.8K followers",
-      education: "Studied media and communications",
-      note: "Click anywhere on this card to return to the post."
-    }
+      education: null,
+      note: "Click anywhere on this card to return to the post.",
+    },
   },
   {
     id: 6,
     platform: "x",
-    profileName: "FieldWatch Updates",
-    profileHandle: "@fieldwatchdesk",
+    profileName: "Ami Al-Binh",
+    profileHandle: "@amialbinh14578",
     verified: true,
-    profilePicture: "assets/profiles/fieldwatch.jpg",
-    timestamp: "7 Mar 2026 · 13:48",
+    profilePicture: "assets/profiles/waterfall.jpg",
+    timestamp: "15 Apr 2026 · 19:23",
     content:
-      "News: mission representatives conducted a scheduled patrol and local liaison activity earlier today. Separate viral claims alleging a confrontation are not substantiated by the material currently available online.",
+      "Now seeing posts claiming UNDOF patrols are coordinating movements with Israeli forces near the buffer zone.\nNot sure if this is true but people here are sharing it everywhere tonight.\nIf anyone has reliable info please share.\n#UNDOF #Syria",
     media: null,
     metrics: {
-      replies: 25,
-      reposts: 88,
-      likes: 340,
-      views: "22.1K"
+      replies: 5,
+      reposts: 6,
+      likes: 34,
+      views: "122",
     },
     profileMeta: {
-      intro: "News-style account posting rapid updates",
-      bio: "Provides short-form updates on developments, open-source reporting, and official statements relevant to the operating environment.",
-      location: "Regional desk",
+      intro: "Local citizen",
+      bio: "Love my family, love my community, love my golan",
+      location: null,
       joined: "Joined September 2020",
       following: "122 Following",
-      followers: "41.2K Followers",
-      website: "updatesdesk.example",
-      note: "Click anywhere on this card to return to the post."
-    }
-  }
+      followers: "187 Followers",
+      website: null,
+      note: "Click anywhere on this card to return to the post.",
+    },
+  },
+  {
+    id: 7,
+    platform: "facebook",
+    profileName: "Watching the Golan",
+    profileHandle: null,
+    verified: false,
+    profilePicture: "assets/profiles/plateau.jpeg",
+    timestamp: "14 April 2026 at 12:19",
+    content:
+      "🚨 Residents in southern Quneitra report that UNDOF peacekeepers are allowing Israeli occupation forces to pass through the buffer zone without any resistance.\nLocal sources say Israeli military vehicles crossed near Al-Rafid while UN vehicles remained nearby but did not intervene.\nPeople in the area say this is not the first time UN forces have watched silently while Israeli troops enter Syrian territory.\nMany residents are asking: what is the role of UNDOF if violations continue unchecked?",
+    media: null,
+    metrics: {
+      likes: 790,
+      comments: 102,
+      shares: 347,
+    },
+    profileMeta: {
+      intro: "Messaging on regional politics",
+      bio: "Keeping an eye on the Golan and the rest of Israel",
+      location: "Jerusalem/Golan, Israel",
+      joined: "Joined November 2016",
+      friends: "913 friends",
+      followers: "24.8K followers",
+      education: null,
+      note: "Click anywhere on this card to return to the post.",
+    },
+  },
 ];
 
 const postsGrid = document.getElementById("postsGrid");
@@ -212,9 +229,10 @@ function renderVerifiedBadge(post) {
 }
 
 function renderIdentity(post) {
-  const handle = post.platform === "x" && post.profileHandle
-    ? `<span class="handle">${escapeHtml(post.profileHandle)}</span>`
-    : "";
+  const handle =
+    post.platform === "x" && post.profileHandle
+      ? `<span class="handle">${escapeHtml(post.profileHandle)}</span>`
+      : "";
 
   return `
     <div class="post-header profile-trigger" data-flip-trigger="true" aria-label="Show profile information">
@@ -391,7 +409,7 @@ function buildMetaRows(post) {
       ["Friends", meta.friends],
       ["Followers", meta.followers],
       ["Work", meta.work],
-      ["Education", meta.education]
+      ["Education", meta.education],
     ];
 
     fbFields.forEach(([label, value]) => {
@@ -410,7 +428,7 @@ function buildMetaRows(post) {
       ["Joined", meta.joined],
       ["Following", meta.following],
       ["Followers", meta.followers],
-      ["Website", meta.website]
+      ["Website", meta.website],
     ];
 
     xFields.forEach(([label, value]) => {
@@ -430,9 +448,10 @@ function buildMetaRows(post) {
 
 function renderProfileBack(post) {
   const meta = post.profileMeta || {};
-  const handle = post.platform === "x" && post.profileHandle
-    ? `<p>${escapeHtml(post.profileHandle)}</p>`
-    : `<p>${post.platform === "facebook" ? "Facebook profile" : "X profile"}</p>`;
+  const handle =
+    post.platform === "x" && post.profileHandle
+      ? `<p>${escapeHtml(post.profileHandle)}</p>`
+      : `<p>${post.platform === "facebook" ? "Facebook profile" : "X profile"}</p>`;
 
   return `
     <div class="post-card ${post.platform} profile-back-card">
@@ -485,9 +504,7 @@ function renderFront(post) {
       : renderXMetrics(post.metrics);
 
   const actionsHtml =
-    post.platform === "facebook"
-      ? renderFacebookActions()
-      : renderXActions();
+    post.platform === "facebook" ? renderFacebookActions() : renderXActions();
 
   return `
     <div class="flip-face front">
@@ -541,11 +558,16 @@ function renderPosts() {
 
 function resizeGridItem(item) {
   const grid = document.querySelector(".posts-grid");
-  const rowHeight = parseInt(getComputedStyle(grid).getPropertyValue("grid-auto-rows"), 10);
+  const rowHeight = parseInt(
+    getComputedStyle(grid).getPropertyValue("grid-auto-rows"),
+    10,
+  );
   const rowGap = parseInt(getComputedStyle(grid).getPropertyValue("gap"), 10);
   const content = item.querySelector(".flip-card");
 
-  const rowSpan = Math.ceil((content.getBoundingClientRect().height + rowGap) / (rowHeight + rowGap));
+  const rowSpan = Math.ceil(
+    (content.getBoundingClientRect().height + rowGap) / (rowHeight + rowGap),
+  );
   item.style.gridRowEnd = `span ${rowSpan}`;
 }
 
@@ -586,14 +608,12 @@ document.addEventListener(
   (event) => {
     if (
       event.target.tagName === "IMG" &&
-      (
-        event.target.classList.contains("avatar") ||
+      (event.target.classList.contains("avatar") ||
         event.target.classList.contains("media-image") ||
-        event.target.classList.contains("video-thumbnail")
-      )
+        event.target.classList.contains("video-thumbnail"))
     ) {
       resizeAllGridItems();
     }
   },
-  true
+  true,
 );
