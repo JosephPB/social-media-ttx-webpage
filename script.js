@@ -8,7 +8,7 @@ const posts = [
     profilePicture: "assets/profiles/castle.jpg",
     timestamp: "14 April 2026 at 07:58",
     content:
-      "Does anyone know what is happening near Al-Rafid this morning? \nJust saw UNDOF vehicles driving toward the area and then not long after that there were Israeli military vehicles moving along the road near the fields \nMy cousin said drones were flying overhead last night too.\nI hope things don't get bad again.",
+      "Translated from Arabic:\nDoes anyone know what is happening near Al-Rafid this morning? \nJust saw UNDOF vehicles driving toward the area and then not long after that there were Israeli military vehicles moving along the road near the fields \nMy cousin said drones were flying overhead last night too.\nI hope things don't get bad again.",
     media: null,
     metrics: {
       likes: "10",
@@ -94,7 +94,7 @@ const posts = [
     profilePicture: "assets/profiles/plateau.jpeg",
     timestamp: "12 Apr 2026 · 12:51",
     content:
-      "Residents in southern Quneitra say UNDOF peacekeepers stood by while Israeli forces crossed near Al-Rafid earlier today.\nLocal accounts claim UN vehicles were present but did not intervene.\nNo independent confirmation yet.\n#UNDOF #Syria #Quneitra",
+      "Translated from Hebrew:\nResidents in southern Quneitra say UNDOF peacekeepers stood by while Israeli forces crossed near Al-Rafid earlier today.\nLocal accounts claim UN vehicles were present but did not intervene.\nNo independent confirmation yet.\n#UNDOF #Syria #Quneitra",
     media: null,
     metrics: {
       replies: 13,
@@ -122,7 +122,7 @@ const posts = [
     profilePicture: "assets/profiles/goat.png",
     timestamp: "14 April 2026 at 11:07",
     content:
-      "Residents in southern Quneitra report that UNDOF peacekeepers are allowing Israeli occupation forces to pass through the buffer zone without any resistance.\nLocal sources say Israeli military vehicles crossed near Al-Rafid while UN vehicles remained nearby but did not intervene.\nPeople in the area say this is not the first time UN forces have watched silently while Israeli troops enter Syrian territory.\nThrough these repeated incursions, Israel continues to violate the ceasefire agreement while the international community remains silent.\nMany residents are asking: what is the role of UNDOF if violations continue unchecked?",
+      "Translated from Arabic:\nResidents in southern Quneitra report that UNDOF peacekeepers are allowing Israeli occupation forces to pass through the buffer zone without any resistance.\nLocal sources say Israeli military vehicles crossed near Al-Rafid while UN vehicles remained nearby but did not intervene.\nPeople in the area say this is not the first time UN forces have watched silently while Israeli troops enter Syrian territory.\nThrough these repeated incursions, Israel continues to violate the ceasefire agreement while the international community remains silent.\nMany residents are asking: what is the role of UNDOF if violations continue unchecked?",
     media: null,
     metrics: {
       likes: 12,
@@ -149,7 +149,7 @@ const posts = [
     profilePicture: "assets/profiles/waterfall.jpg",
     timestamp: "15 Apr 2026 · 19:23",
     content:
-      "Now seeing posts claiming UNDOF patrols are coordinating movements with Israeli forces near the buffer zone.\nNot sure if this is true but people here are sharing it everywhere tonight.\nIf anyone has reliable info please share.\n#UNDOF #Syria",
+      "Translated from Arabic:\nNow seeing posts claiming UNDOF patrols are coordinating movements with Israeli forces near the buffer zone.\nNot sure if this is true but people here are sharing it everywhere tonight.\nIf anyone has reliable info please share.\n#UNDOF #Syria",
     media: null,
     metrics: {
       replies: 5,
