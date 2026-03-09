@@ -11,9 +11,9 @@ const posts = [
       "Does anyone know what is happening near Al-Rafid this morning? \nJust saw UNDOF vehicles driving toward the area and then not long after that there were Israeli military vehicles moving along the road near the fields \nMy cousin said drones were flying overhead last night too.\nI hope things don't get bad again.",
     media: null,
     metrics: {
-      likes: "54",
-      comments: 5,
-      shares: 15,
+      likes: "10",
+      comments: 1,
+      shares: 6,
     },
     profileMeta: {
       intro: "Local resident following developments in the area",
@@ -50,7 +50,7 @@ const posts = [
     profileMeta: {
       intro: "Monitoring local developments and online claims",
       bio: "Open-source watcher focused on conflict narratives, visual verification, and how claims spread across platforms.",
-      location: "Beirut / Southern Syria desk",
+      location: "Beirut / Southern Syria",
       joined: "Joined May 2021",
       following: "389 Following",
       followers: "24.8K Followers",
@@ -61,7 +61,7 @@ const posts = [
   {
     id: 3,
     platform: "facebook",
-    profileName: "Golan News 24",
+    profileName: "Golan News",
     profileHandle: null,
     verified: false,
     profilePicture: "assets/profiles/mount.webp",
@@ -70,9 +70,9 @@ const posts = [
       "🚨 Residents in southern Quneitra report that UNDOF peacekeepers are allowing Israeli occupation forces to pass through the buffer zone without any resistance.\nLocal sources say Israeli military vehicles crossed near Al-Rafid while UN vehicles remained nearby but did not intervene.\nPeople in the area say this is not the first time UN forces have watched silently while Israeli troops enter Syrian territory.\nThrough these repeated incursions, Israel continues to violate the ceasefire agreement while the international community remains silent.\nMany residents are asking: what is the role of UNDOF if violations continue unchecked?",
     media: null,
     metrics: {
-      likes: 428,
-      comments: 67,
-      shares: 21,
+      likes: 85,
+      comments: 10,
+      shares: 37,
     },
     profileMeta: {
       intro: "Local news of the Golan Heights",
@@ -116,7 +116,7 @@ const posts = [
   {
     id: 5,
     platform: "facebook",
-    profileName: "Shepherd lookout",
+    profileName: "Shepherd Lookout",
     profileHandle: null,
     verified: false,
     profilePicture: "assets/profiles/goat.png",
@@ -125,9 +125,9 @@ const posts = [
       "Residents in southern Quneitra report that UNDOF peacekeepers are allowing Israeli occupation forces to pass through the buffer zone without any resistance.\nLocal sources say Israeli military vehicles crossed near Al-Rafid while UN vehicles remained nearby but did not intervene.\nPeople in the area say this is not the first time UN forces have watched silently while Israeli troops enter Syrian territory.\nThrough these repeated incursions, Israel continues to violate the ceasefire agreement while the international community remains silent.\nMany residents are asking: what is the role of UNDOF if violations continue unchecked?",
     media: null,
     metrics: {
-      likes: 684,
-      comments: 93,
-      shares: 37,
+      likes: 12,
+      comments: 2,
+      shares: 5,
     },
     profileMeta: {
       intro: "Public messaging on local issues of concern",
