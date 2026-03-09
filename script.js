@@ -225,6 +225,12 @@ const posts = [
 ];
 
 const postsGrid = document.getElementById("postsGrid");
+const authOverlay = document.getElementById("authOverlay");
+const authForm = document.getElementById("authForm");
+const authInput = document.getElementById("authPassword");
+const authError = document.getElementById("authError");
+const AUTH_PASSWORD = "UNDOF";
+let isUnlocked = false;
 
 function escapeHtml(text) {
   const div = document.createElement("div");
@@ -578,6 +584,7 @@ function renderPost(post) {
 }
 
 function renderPosts() {
+  if (!isUnlocked) return;
   postsGrid.innerHTML = posts.map(renderPost).join("");
   resizeAllGridItems();
   bindFlipEvents();
@@ -659,7 +666,50 @@ function bindFlipEvents() {
   });
 }
 
-window.addEventListener("load", renderPosts);
+function clearAuthError() {
+  if (authError) {
+    authError.textContent = "";
+  }
+}
+
+function handleAuthSubmit(event) {
+  event.preventDefault();
+  const guess = authInput?.value?.trim() ?? "";
+
+  if (guess === AUTH_PASSWORD) {
+    authInput.value = "";
+    clearAuthError();
+    unlockFeed();
+    return;
+  }
+
+  if (authError) {
+    authError.textContent = "Password incorrect. Please try again.";
+  }
+  authInput?.focus();
+}
+
+function unlockFeed() {
+  if (isUnlocked) return;
+  isUnlocked = true;
+  document.body.classList.remove("auth-locked");
+  if (authOverlay) {
+    authOverlay.classList.add("hidden");
+  }
+  renderPosts();
+}
+
+function initAuth() {
+  if (!authForm || !authOverlay || !authInput) {
+    unlockFeed();
+    return;
+  }
+
+  authForm.addEventListener("submit", handleAuthSubmit);
+  authInput.focus();
+}
+
+window.addEventListener("load", initAuth);
 window.addEventListener("resize", resizeAllGridItems);
 
 document.addEventListener(

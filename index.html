@@ -6,7 +6,7 @@
     <title>Social Media TTX Feed</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
-  <body>
+  <body class="auth-locked">
     <main class="page">
       <header class="page-header">
         <div>
@@ -20,6 +20,27 @@
 
       <section id="postsGrid" class="posts-grid"></section>
     </main>
+
+    <div id="authOverlay" class="auth-overlay" aria-live="polite">
+      <div class="auth-card">
+        <p class="auth-label">
+          This page is password protected for training participants.
+        </p>
+        <form id="authForm" class="auth-form">
+          <label class="sr-only" for="authPassword">Password</label>
+          <input
+            id="authPassword"
+            name="password"
+            type="password"
+            autocomplete="current-password"
+            placeholder="Enter password"
+            required
+          />
+          <button type="submit">Unlock</button>
+          <p id="authError" class="auth-error" aria-live="assertive"></p>
+        </form>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>
