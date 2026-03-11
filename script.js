@@ -98,7 +98,7 @@ const posts = [
       "Reports circulating locally that Israeli occupation forces are entering and strengthening positions in the occupied Golan Heights while UNDOF vehicles are present nearby.\nSeveral witnesses say the military vehicles used roads close to the buffer area and passed without any resistance.\n#UNDOF #Golan #Syria",
     media: {
       type: "image",
-      url: "assets/media/tank_track.jpg",
+      url: "assets/media/undof_merkava.png",
     },
     metrics: {
       replies: 21,
@@ -183,7 +183,10 @@ const posts = [
     timestamp: "11 March 2026 at 14:27",
     content:
       "Translated from Arabic:\nPeople are saying Israeli forces are even attacking Lebanon from Syrian territory now.\nUNDOF vehicles were seen earlier on the same roads.\nAre they just watching this or are they helping make it possible?",
-    media: null,
+    media: {
+      type: "image",
+      url: "assets/media/idf_white_car.webp",
+    },
     metrics: {
       likes: 22,
       comments: 6,
@@ -211,7 +214,10 @@ const posts = [
     timestamp: "11 Mar 2026 · 14:28",
     content:
       "From what we can see online, Israeli forces appear to be reinforcing positions in the Golan while UNDOF remains present nearby.\nSome accounts are saying the mission is useless and that the IDF had to step in to support Syrians, just as it says it is supporting the people of Iran.",
-    media: null,
+    media: {
+      type: "image",
+      url: "assets/media/un_convoy.png",
+    },
     metrics: {
       replies: 13,
       reposts: 31,
@@ -435,7 +441,11 @@ const posts = [
     timestamp: "11 March 2026 at 14:37",
     content:
       "Translated from Arabic:\nIf Israeli forces are using Syrian land to attack Lebanon and UNDOF is just watching, people here cannot accept this forever.\nEveryone sees the same vehicles moving again today.",
-    media: null,
+    media: {
+      type: "video",
+      thumbnail: "assets/media/tank_movie_thumbnail.png",
+      url: "assets/media/tank_movie.mp4",
+    },
     metrics: {
       likes: 51,
       comments: 18,
