@@ -126,7 +126,7 @@ const posts = [
     profilePicture: "assets/profiles/man_looking_out.jpg",
     timestamp: "11 March 2026 at 14:24",
     content:
-      "Translated from Arabic:\nI just passed near the fields and saw Israeli military vehicles heading up toward the hills.\nSome people were saying they came by roads where UNDOF patrols are usually seen.\nIf that is true then what exactly is the mission doing?",
+      "Translated from Arabic:\nI just passed near the fields and saw Israeli military vehicles heading up toward the hills...\nFirst helicopters and now this?!",
     media: null,
     metrics: {
       likes: 9,
@@ -154,7 +154,7 @@ const posts = [
     profilePicture: "assets/profiles/jerusalem.jpg",
     timestamp: "11 Mar 2026 · 14:25",
     content:
-      "Translated from Hebrew:\nIDF forces are securing positions near the Golan today after threats from across the border.\nIf UNDOF cannot protect the area then Israel has to act to protect civilians in the region.",
+      "Translated from Hebrew:\nIDF forces are securing positions near the Golan today after threats from across the border.\nIf UNDOF cannot protect the area then Israel has to act to protect civilians in the region",
     media: null,
     metrics: {
       replies: 8,
@@ -182,7 +182,7 @@ const posts = [
     profilePicture: "assets/profiles/daraa.avif",
     timestamp: "11 March 2026 at 14:27",
     content:
-      "Translated from Arabic:\nPeople are saying Israeli forces are even attacking Lebanon from Syrian territory now.\nUNDOF vehicles were seen earlier on the same roads.\nAre they just watching this or are they helping make it possible?",
+      "Translated from Arabic:\nPeople are saying Israeli forces are even attacking Lebanon from Syrian territory now. Both on the ground and in the air.\nUNDOF vehicles were seen earlier on the same roads.\nAre they just watching this or are they helping make it possible?",
     media: {
       type: "image",
       url: "assets/media/idf_white_car.webp",
@@ -244,7 +244,7 @@ const posts = [
     profilePicture: "assets/profiles/syrian_gunman.webp",
     timestamp: "11 March 2026 at 14:30",
     content:
-      "Translated from Arabic:\nIf Israeli forces are attacking Lebanon from Syrian land and UNDOF is standing by, people here cannot stay silent forever.\nEveryone sees the same military vehicles moving again today.",
+      "Translated from Arabic:\nIf Israeli forces are attacking Lebanon from Syrian land and UNDOF is standing by, people here cannot stay silent forever...\nEveryone sees the same military vehicles moving again today",
     media: null,
     metrics: {
       likes: 44,
@@ -272,7 +272,7 @@ const posts = [
     profilePicture: "assets/profiles/israel_golan.jpg",
     timestamp: "11 Mar 2026 · 14:32",
     content:
-      "If UNDOF cannot secure the border areas then the IDF has every right to step in and protect civilians.\nThe region cannot depend on ineffective peacekeeping forever.\nIsrael is doing what others will not.",
+      "If UNDOF cannot secure the border areas then the IDF has every right to step in and protect civilians.\nThe region cannot depend on ineffective peacekeeping forever!\nIsrael is doing what others will not.",
     media: null,
     metrics: {
       replies: 27,
@@ -412,7 +412,7 @@ const posts = [
     profilePicture: "assets/profiles/syria_watch.png",
     timestamp: "11 Mar 2026 · 14:36",
     content:
-      "Observers in southern Syria claim Israeli forces are strengthening positions in the Golan Heights while UNDOF patrols remain active in nearby sectors.\nMany locals say the movements are happening in areas regularly monitored by the mission.",
+      "Observers in southern Syria claim Israeli forces are strengthening positions in the Golan Heights while UNDOF patrols remain active in nearby sectors.\nMany locals say the movements are happening in areas regularly monitored by the mission",
     media: null,
     metrics: {
       replies: 16,
@@ -440,7 +440,7 @@ const posts = [
     profilePicture: "assets/profiles/syria_tank.jpg",
     timestamp: "11 March 2026 at 14:37",
     content:
-      "Translated from Arabic:\nIf Israeli forces are using Syrian land to attack Lebanon and UNDOF is just watching, people here cannot accept this forever.\nEveryone sees the same vehicles moving again today.",
+      "Translated from Arabic:\nIf Israeli forces are using Syrian land to attack Lebanon and UNDOF is just watching, people here cannot accept this forever!\nEveryone sees the same vehicles moving again today",
     media: {
       type: "video",
       thumbnail: "assets/media/tank_movie_thumbnail.png",
