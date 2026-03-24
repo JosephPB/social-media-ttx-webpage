@@ -211,7 +211,7 @@ const posts = [
     profileName: "Jerusalem Evening Standard",
     profileHandle: "@JerusalemStandard",
     verified: true,
-    profilePicture: "assets/profiles/jerusalem.png",
+    profilePicture: "assets/profiles/jerusalem.jpg",
     timestamp: "25 Mar 2026 · 15:40",
     content:
       'Escalating online discourse on the Lebanon front is tying UNIFIL to Hezbollah and UNRWA to Hamas.\nSome say the IDF had to enter Lebanon because UNIFIL failed; other are now calling UN peacekeepers an "occupation force."\nWho is right?',
@@ -268,7 +268,7 @@ const authOverlay = document.getElementById("authOverlay");
 const authForm = document.getElementById("authForm");
 const authInput = document.getElementById("authPassword");
 const authError = document.getElementById("authError");
-const AUTH_PASSWORD = "UNDOF";
+const AUTH_PASSWORD = "SAPP";
 let isUnlocked = false;
 
 function escapeHtml(text) {
