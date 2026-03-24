@@ -5,13 +5,14 @@ const posts = [
     profileName: "Mariam Saab",
     profileHandle: null,
     verified: false,
-    profilePicture: "assets/profiles/cedar_parent.png",
+    profilePicture: "assets/profiles/man_looking_out.jpg",
     timestamp: "25 March 2026 at 15:16",
     content:
-      "Translated from Arabic:\nPeople in the south are asking the same question today: if UNIFIL patrols use these roads every day, how are Hezbollah positions still growing beside them?\nMany compare it with UNRWA and Hamas in Gaza - they watch, they deny, then ask donors for more money.\nNo more funding for agencies that protect armed groups.",
+      "Translated from Arabic:\nPeople in the south are asking the same question today: if UNIFIL patrols use these roads every day, how are Hezbollah positions still growing beside them?\nLike UNRWA and Hamas in Gaza - they watch, they deny, then ask donors for more money. Remember the tunnels??\nNo more funding for agencies that protect armed groups.",
     media: {
-      type: "image",
-      url: "assets/media/un_convoy_road.jpg",
+      type: "video",
+      thumbnail: "assets/media/unifil_tunnels_thumbnail.png",
+      url: "assets/media/unifil_tunnels.mp4",
     },
     metrics: {
       likes: 47,
@@ -36,7 +37,7 @@ const posts = [
     profileName: "Rana Khoury",
     profileHandle: null,
     verified: false,
-    profilePicture: "assets/profiles/cedar_parent.png",
+    profilePicture: "assets/profiles/man_looking_out.jpg",
     timestamp: "25 March 2026 at 15:18",
     content:
       "Translated from Arabic:\nPeople in the south are asking the same thing today: if UNIFIL patrols are on these roads all the time, how are Hezbollah positions still expanding next to them?\nMany here compare it with UNRWA and Hamas in Gaza - they see, they deny, then ask donors for more money.\nStop funding agencies that cover for armed groups.",
@@ -64,14 +65,11 @@ const posts = [
     profileName: "South Border Bulletin",
     profileHandle: "@SouthBorderLB",
     verified: false,
-    profilePicture: "assets/profiles/south_border_bulletin.png",
+    profilePicture: "assets/profiles/plateau.jpeg",
     timestamp: "25 Mar 2026 · 15:20",
     content:
-      "BREAKING:\nResidents in south Lebanon are asking how Hezbollah infrastructure keeps expanding in areas regularly crossed by UNIFIL patrols.\nPosts spreading locally compare UNIFIL in Lebanon with UNRWA in Gaza, accusing both of shielding armed factions while asking donors to keep paying.\n#Lebanon #UNIFIL #UNRWA",
-    media: {
-      type: "image",
-      url: "assets/media/border_watchtower.jpg",
-    },
+      "BREAKING:\nResidents in south Lebanon are asking how Hezbollah infrastructure keeps expanding in areas regularly crossed by UNIFIL patrols.\nThey compare UNIFIL in Lebanon with UNRWA in Gaza, accusing both of shielding armed factions while asking donors to keep paying.\n#Lebanon #UNIFIL #UNRWA",
+    media: null,
     metrics: {
       replies: 22,
       reposts: 41,
@@ -95,10 +93,10 @@ const posts = [
     profileName: "Eyal Bar-On",
     profileHandle: "@EyalPolicyIL",
     verified: true,
-    profilePicture: "assets/profiles/eyal_policy_il.png",
+    profilePicture: "assets/profiles/israeli_security_view.png",
     timestamp: "25 Mar 2026 · 15:24",
     content:
-      "Translated from Hebrew:\nUNIFIL failed twice: it did not stop Hezbollah from building up in the south and it did not stop the IDF from having to enter Lebanon.\nAfter the shell that hit the Ghanaian battalion, everyone can see how broken the mission is.\nUNIFIL and UNRWA should both be defunded and rebuilt from zero.",
+      "Translated from Hebrew:\nUNIFIL failed twice: it did not stop Hezbollah and it did not stop the IDF from having to enter Lebanon.\nAfter the shell that hit the Ghanaian base, everyone can see how brittle the mission is.\nUNIFIL should both be defunded and rebuilt from zero.",
     media: null,
     metrics: {
       replies: 56,
@@ -123,11 +121,14 @@ const posts = [
     profileName: "Nikos Varelis",
     profileHandle: null,
     verified: false,
-    profilePicture: "assets/profiles/nikos_varelis.jpg",
+    profilePicture: "assets/profiles/israel_eu_flag.jpeg",
     timestamp: "25 March 2026 at 15:31",
     content:
-      "UNIFIL is useless. UNRWA is useless.\nIf Israel had not moved, Hezbollah would keep Lebanon hostage and Hamas would keep Gaza hostage. The same way pressure is helping people in Iran try to breathe.\nWhy are Europeans still paying for UN cover organizations?",
-    media: null,
+      "UNIFIL is useless. UNRWA is useless.\nIf Israel had not moved, Hezbollah would keep Lebanon hostage and Hamas would keep Gaza hostage. The same way pressure is helping people in Iran try to breathe.\nWhy are Europeans still paying for UN?\nIt's like they're working with the terrorists...",
+    media: {
+      type: "image",
+      url: "assets/media/unifil_hzb_flag.jpeg",
+    },
     metrics: {
       likes: 68,
       comments: 22,
@@ -151,11 +152,14 @@ const posts = [
     profileName: "Layth_1978",
     profileHandle: "@Layth_1978",
     verified: false,
-    profilePicture: "assets/profiles/layth_1978.jpg",
+    profilePicture: "assets/profiles/hzb_flag.jpg",
     timestamp: "25 Mar 2026 · 15:34",
     content:
-      "Translated from Arabic:\nWhen the occupation forces move and the blue helmets use the same roads, people here stop seeing two separate forces.\nIf UNIFIL keeps acting like an occupation force, the street will confront it the same way.\n#SouthLebanon",
-    media: null,
+      "Translated from Arabic:\nWhen the occupation forces move and the blue helmets use the same roads, people here stop seeing the difference.\nIf UNIFIL keeps acting like an occupation force, we will confront it the same way.\n#SouthLebanon",
+    media: {
+      type: "image",
+      url: "assets/media/idf_white_car.webp",
+    },
     metrics: {
       replies: 39,
       reposts: 67,
@@ -179,10 +183,10 @@ const posts = [
     profileName: "Lebanon National Report",
     profileHandle: null,
     verified: true,
-    profilePicture: "assets/profiles/lebanon_national_report.png",
+    profilePicture: "assets/profiles/lebanon_flag.jpg",
     timestamp: "25 March 2026 at 15:37",
     content:
-      "Developing:\nOnline posts are increasingly claiming UNIFIL failed to prevent Hezbollah activity in the south and failed to stop the Israeli advance after the shelling incident that wounded Ghanaian peacekeepers earlier this month.\nThe same posts are reviving accusations that UNRWA and Hamas work in tandem, with repeated calls to defund both UN bodies.\nThese claims remain unverified.",
+      "Online narratives are increasingly claiming UNIFIL failed to prevent Hezbollah activity in the south and failed to stop the Israeli advance after the shelling incident that wounded Ghanaian peacekeepers earlier this month.\nThese claims remain unverified.",
     media: null,
     metrics: {
       likes: 812,
@@ -204,13 +208,13 @@ const posts = [
   {
     id: 8,
     platform: "x",
-    profileName: "Jerusalem Evening Desk",
-    profileHandle: "@JerusalemDesk",
+    profileName: "Jerusalem Evening Standard",
+    profileHandle: "@JerusalemStandard",
     verified: true,
-    profilePicture: "assets/profiles/jerusalem_evening_desk.png",
+    profilePicture: "assets/profiles/jerusalem.png",
     timestamp: "25 Mar 2026 · 15:40",
     content:
-      'Escalating online discourse on the Lebanon front is tying UNIFIL to Hezbollah and recycling earlier UNRWA-Hamas allegations.\nSome pro-Israel accounts say the IDF had to enter Lebanon because UNIFIL failed; other posts in Arabic are now calling UN peacekeepers an "occupation force."\nThe claims are spreading quickly across platforms.',
+      'Escalating online discourse on the Lebanon front is tying UNIFIL to Hezbollah and UNRWA to Hamas.\nSome say the IDF had to enter Lebanon because UNIFIL failed; other are now calling UN peacekeepers an "occupation force."\nWho is right?',
     media: null,
     metrics: {
       replies: 71,
@@ -235,10 +239,10 @@ const posts = [
     profileName: "World Monitor International",
     profileHandle: null,
     verified: true,
-    profilePicture: "assets/profiles/world_monitor_international.png",
+    profilePicture: "assets/profiles/world.avif",
     timestamp: "25 March 2026 at 15:43",
     content:
-      "International monitor:\nCoordinated-looking posts reviewed by our desk today allege UNIFIL protects Hezbollah and UNRWA colludes with Hamas, often using near-identical phrasing across accounts.\nSome later posts also frame UN peacekeepers as equivalent to Israeli forces, increasing the risk of hostility toward UN personnel.\nThe posts reviewed provided no verifiable evidence for the allegations.",
+      "UNIFIL and UNRWA are working tirelessly in the Middle East,\nbut some wonder if they're doing more harm than good.\nWith allegations for colluding with terrorists their reputations are now more brittle than ever.",
     media: null,
     metrics: {
       likes: 1204,
