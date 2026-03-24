@@ -69,7 +69,10 @@ const posts = [
     timestamp: "25 Mar 2026 · 15:20",
     content:
       "BREAKING:\nResidents in south Lebanon are asking how Hezbollah infrastructure keeps expanding in areas regularly crossed by UNIFIL patrols.\nThey compare UNIFIL in Lebanon with UNRWA in Gaza, accusing both of shielding armed factions while asking donors to keep paying.\n#Lebanon #UNIFIL #UNRWA",
-    media: null,
+    media: {
+      type: "image",
+      url: "assets/media/un_convoy_lebanon.png",
+    },
     metrics: {
       replies: 22,
       reposts: 41,
