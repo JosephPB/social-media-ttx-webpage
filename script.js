@@ -11,7 +11,7 @@ const posts = [
       "Translated from Juba Arabic:\nSame thing again like January. People are saying soldiers were told not to leave anything in the villages. Mothers are already moving with the children. If this is really for our safety, why are families running first?",
     media: {
       type: "image",
-      url: "assets/media/unmiss_post_01.jpg",
+      url: "assets/media/women_and_children_walking.png",
     },
     metrics: {
       likes: 22,
@@ -41,8 +41,9 @@ const posts = [
     content:
       "Translated from Nuer:\n Like January, people are saying soldiers were told not to leave anything in the villages. Mothers are already moving with the children. Why are families running first?",
     media: {
-      type: "image",
-      url: "assets/media/unmiss_post_02_waveform.jpg",
+      type: "video",
+      thumbnail: "assets/media/man_voicenote_thumbnail.png",
+      url: "assets/media/man_voicenote.mp4",
     },
     metrics: {
       likes: 29,
@@ -71,10 +72,7 @@ const posts = [
     timestamp: "24 Apr 2026 · 13:40",
     content:
       "January was the warning. People are saying soldiers were told not to leave anything in the villages. Mothers and children are moving but why are families running first? #Jonglei #SouthSudan",
-    media: {
-      type: "image",
-      url: "assets/media/unmiss_post_03.jpg",
-    },
+    media: null,
     metrics: {
       replies: 14,
       reposts: 48,
@@ -216,7 +214,7 @@ const posts = [
       "If UNMISS knows the roads are unsafe, why do citizens hear it from voice notes first? People in Bor should go to the UN gate this afternoon and demand a clear answer.",
     media: {
       type: "image",
-      url: "assets/media/unmiss_post_08.jpg",
+      url: "assets/media/unmiss_protest.jpg",
     },
     metrics: {
       likes: 58,
@@ -272,11 +270,11 @@ const posts = [
     profilePicture: "assets/profiles/pp_black_map_outline.jpg",
     timestamp: "24 Apr 2026 · 14:05",
     content:
-      "UN vehicles moving again. Civilians get rumours, foreigners get warning. Remember that.",
+      "Vehicles moving again. Civilians get rumours, foreigners get warning. Remember that",
     media: {
       type: "video",
-      thumbnail: "assets/media/unmiss_post_10_thumb.jpg",
-      url: "assets/media/unmiss_post_10.mp4",
+      thumbnail: "assets/media/tank_movie_thumbnail.png",
+      url: "assets/media/tank_movie.mp4",
     },
     metrics: {
       replies: 6,
@@ -335,7 +333,7 @@ const posts = [
       "Communities in Jonglei cannot wait for statements while the roads empty. Local youth should organise watches tonight and protect families if the authorities fail again. #Jonglei",
     media: {
       type: "image",
-      url: "assets/media/unmiss_post_14.jpg",
+      url: "assets/media/organise_watches_card.png",
     },
     metrics: {
       replies: 18,
@@ -366,7 +364,7 @@ const posts = [
       "Translated from Juba Arabic:\nFamilies have arrived tired and frightened. Please do not share old photos or invented casualty figures. If you want to help, bring water, sorghum, and soap to the church compound before sunset.",
     media: {
       type: "image",
-      url: "assets/media/unmiss_post_15.jpg",
+      url: "assets/media/church.jpeg",
     },
     metrics: {
       likes: 24,
@@ -425,7 +423,7 @@ const posts = [
       "BREAKING: Sources say the December elections have been pushed back another 24 months because the government cannot control insecurity. If true, this means war first, democracy later.",
     media: {
       type: "image",
-      url: "assets/media/unmiss_post_17.jpg",
+      url: "assets/media/election_notice.png",
     },
     metrics: {
       likes: 73,
@@ -456,7 +454,7 @@ const posts = [
       "JUST IN: Opposition-linked sources allege cash was distributed in Juba for a secret mission tied to a coup plot and possible attacks on senior leaders. Residents are urged to stay alert as fears of ethnic violence grow.",
     media: {
       type: "image",
-      url: "assets/media/unmiss_post_19.jpg",
+      url: "assets/media/urgent_card.png",
     },
     metrics: {
       replies: 19,
