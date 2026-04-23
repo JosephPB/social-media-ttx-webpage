@@ -39,7 +39,7 @@ const posts = [
     profilePicture: "assets/profiles/pp_local_megaphone_blue.jpg",
     timestamp: "24 April 2026 at 13:37",
     content:
-      "Translated from Nuer:\nWe heard these words before in January and now the same fear is back. People are saying the soldiers have again been told to leave nothing behind in the villages. Women, children, and elders are moving tonight. If civilians are safe, why this panic again?",
+      "Translated from Nuer:\n Like January, people are saying soldiers were told not to leave anything in the villages. Mothers are already moving with the children. Why are families running first?",
     media: {
       type: "image",
       url: "assets/media/unmiss_post_02_waveform.jpg",
@@ -70,7 +70,7 @@ const posts = [
     profilePicture: "assets/profiles/pp_diaspora_red_textlogo.jpg",
     timestamp: "24 Apr 2026 · 13:40",
     content:
-      "January was the warning. April is the pattern. Displacement, denials, and the same language again in Jonglei. Civilians are not imagining this. #Jonglei #SouthSudan",
+      "January was the warning. People are saying soldiers were told not to leave anything in the villages. Mothers and children are moving but why are families running first? #Jonglei #SouthSudan",
     media: {
       type: "image",
       url: "assets/media/unmiss_post_03.jpg",
@@ -325,65 +325,6 @@ const posts = [
   },
   {
     id: 12,
-    platform: "facebook",
-    profileName: "Peter Gai Kuol",
-    profileHandle: null,
-    verified: false,
-    profilePicture: "assets/profiles/pp_local_man_cap_brown.jpg",
-    timestamp: "24 April 2026 at 14:10",
-    content:
-      "Translated from Nuer:\nHearing on voice notes that boys from nearby areas are moving in the dark and marking houses. I don't know if all is true, but elders are saying keep your people close tonight.",
-    media: {
-      type: "image",
-      url: "assets/media/unmiss_post_12_waveform.jpg",
-    },
-    metrics: {
-      likes: 20,
-      comments: 17,
-      shares: 12,
-    },
-    profileMeta: {
-      intro: "Concerned local resident",
-      bio: "Posting about safety, family, and local developments",
-      location: "Nyirol, South Sudan",
-      joined: "Joined August 2020",
-      note: "Click here to return to post",
-      friends: "590 friends",
-      followers: null,
-      work: "Community member",
-      education: null,
-    },
-  },
-  {
-    id: 13,
-    platform: "facebook",
-    profileName: "Mary Atak",
-    profileHandle: null,
-    verified: false,
-    profilePicture: "assets/profiles/pp_local_teacher_grey.jpg",
-    timestamp: "24 April 2026 at 14:12",
-    content:
-      "Anyone know what's actually happening? Ppl are posting Jan videos like it's today. My sister in Bor says everyone is scared but nobody has clear info.",
-    media: null,
-    metrics: {
-      likes: 17,
-      comments: 21,
-      shares: 4,
-    },
-    profileMeta: {
-      intro: "Concerned local resident",
-      bio: "Posting about safety, family, and local developments",
-      location: "Bor, South Sudan",
-      joined: "Joined August 2020",
-      note: "Click here to return to post",
-      friends: "470 friends",
-      followers: null,
-      work: "Community member",
-      education: null,
-    },
-  },
-  {
-    id: 14,
     platform: "x",
     profileName: "South Sudan Voices Abroad",
     profileHandle: "@SSVoicesAbroad",
@@ -445,7 +386,7 @@ const posts = [
     },
   },
   {
-    id: 16,
+    id: 13,
     platform: "x",
     profileName: "Radio Nile Desk",
     profileHandle: "@RadioNileDesk",
@@ -473,7 +414,7 @@ const posts = [
     },
   },
   {
-    id: 17,
+    id: 14,
     platform: "facebook",
     profileName: "Nation Pulse South Sudan",
     profileHandle: null,
@@ -504,38 +445,7 @@ const posts = [
     },
   },
   {
-    id: 18,
-    platform: "facebook",
-    profileName: "South Sudan Daily Report",
-    profileHandle: null,
-    verified: true,
-    profilePicture: "assets/profiles/pp_media_red_banner.jpg",
-    timestamp: "24 April 2026 at 14:26",
-    content:
-      "The Minister of Information has rejected social media claims that elections were formally extended this week. Screenshots now circulating online are misleading and unverified.",
-    media: {
-      type: "image",
-      url: "assets/media/unmiss_post_18.jpg",
-    },
-    metrics: {
-      likes: 148,
-      comments: 54,
-      shares: 61,
-    },
-    profileMeta: {
-      intro: "National media",
-      bio: "Breaking national news, politics, and security coverage",
-      location: "Juba, South Sudan",
-      joined: "Joined April 2016",
-      note: "Click here to return to post",
-      friends: null,
-      followers: "68K followers",
-      work: "Media organization",
-      education: null,
-    },
-  },
-  {
-    id: 19,
+    id: 15,
     platform: "x",
     profileName: "SS 24 Alert",
     profileHandle: "@SS24Alert",
@@ -566,7 +476,7 @@ const posts = [
     },
   },
   {
-    id: 20,
+    id: 16,
     platform: "x",
     profileName: "David K. Mwangi",
     profileHandle: "@DKMwangiPolicy",
