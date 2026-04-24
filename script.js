@@ -408,7 +408,7 @@ const posts = [
       note: "Click here to return to post",
       following: "623 Following",
       followers: "9.8K Followers",
-      website: "radioniledesk.example",
+      website: "radioniledesk.org",
     },
   },
   {
@@ -498,7 +498,7 @@ const posts = [
       note: "Click here to return to post",
       following: "1,142 Following",
       followers: "28.4K Followers",
-      website: "policybriefs.example",
+      website: "policybriefs.ke",
     },
   },
 ];
