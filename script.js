@@ -5,7 +5,7 @@ const posts = [
     profileName: "Achan Riak",
     profileHandle: null,
     verified: false,
-    profilePicture: "assets/profiles/pp_local_woman_green_wrap.jpg",
+    profilePicture: "assets/profiles/pp_local_woman_green_wrap.webp",
     timestamp: "24 April 2026 at 13:34",
     content:
       "Translated from Juba Arabic:\nSame thing again like January. People are saying soldiers were told not to leave anything in the villages. Mothers are already moving with the children. If this is really for our safety, why are families running first?",
@@ -36,7 +36,7 @@ const posts = [
     profileName: "Nyirol Community Voice",
     profileHandle: null,
     verified: false,
-    profilePicture: "assets/profiles/pp_local_megaphone_blue.jpg",
+    profilePicture: "assets/profiles/pp_local_megaphone_blue.jpg.webp",
     timestamp: "24 April 2026 at 13:37",
     content:
       "Translated from Nuer:\n Like January, people are saying soldiers were told not to leave anything in the villages. Mothers are already moving with the children. Why are families running first?",
@@ -68,7 +68,7 @@ const posts = [
     profileName: "Nuer Rights Now",
     profileHandle: "@NuerRightsNow",
     verified: false,
-    profilePicture: "assets/profiles/pp_diaspora_red_textlogo.jpg",
+    profilePicture: "assets/profiles/nuer_map.png",
     timestamp: "24 Apr 2026 · 13:40",
     content:
       "January was the warning. People are saying soldiers were told not to leave anything in the villages. Mothers and children are moving but why are families running first? #Jonglei #SouthSudan",
@@ -96,7 +96,7 @@ const posts = [
     profileName: "Upper Nile Watch",
     profileHandle: "@UpperNileWatch",
     verified: false,
-    profilePicture: "assets/profiles/pp_diaspora_black_red_logo.jpg",
+    profilePicture: "assets/profiles/upper_nile.avif",
     timestamp: "24 Apr 2026 · 13:42",
     content:
       "The rhetoric from January is being recycled through action: evacuations, fear, and silence. That is how atrocity risk returns. #SouthSudan #Jonglei",
@@ -121,10 +121,10 @@ const posts = [
   {
     id: 5,
     platform: "x",
-    profileName: "Govt Info Desk Jonglei",
+    profileName: "Govt Jonglei",
     profileHandle: "@GovtInfoJGL",
     verified: false,
-    profilePicture: "assets/profiles/pp_gov_emblem_blue.jpg",
+    profilePicture: "assets/profiles/jonglei_emblem.png",
     timestamp: "24 Apr 2026 · 13:46",
     content:
       "The public is advised to disregard fabricated reports alleging any state policy targeting civilians in Jonglei. Any temporary movement guidance relates to force protection and civilian safety during ongoing security operations.",
@@ -152,7 +152,7 @@ const posts = [
     profileName: "Peace First Bor",
     profileHandle: "@PeaceFirstBor",
     verified: false,
-    profilePicture: "assets/profiles/pp_eagle_flag_blue.jpg",
+    profilePicture: "assets/profiles/south_sudan_flag_eagle.png",
     timestamp: "24 Apr 2026 · 13:49",
     content:
       "Opposition accounts are replaying January lies to scare ppl again. No govt order against civilians. Security forces are dealing with armed elements, not communities. #PeaceFirst #Jonglei",
@@ -180,7 +180,7 @@ const posts = [
     profileName: "National Stability SS",
     profileHandle: "@NationalStabilitySS",
     verified: false,
-    profilePicture: "assets/profiles/pp_eagle_flag_blue.jpg",
+    profilePicture: "assets/profiles/south_sudan_flag_eagle.png",
     timestamp: "24 Apr 2026 · 13:52",
     content:
       "Do not help the panic campaign. There is no state order against civilians in Jonglei. Anti-peace actors are weaponising old January language to undermine stability. #PeaceFirst #SouthSudan",
@@ -208,10 +208,10 @@ const posts = [
     profileName: "Bor Citizens First",
     profileHandle: null,
     verified: false,
-    profilePicture: "assets/profiles/pp_crossedout_bluehelmet.jpg",
+    profilePicture: "assets/profiles/helmet_crossed.png",
     timestamp: "24 April 2026 at 13:57",
     content:
-      "If UNMISS knows the roads are unsafe, why do citizens hear it from voice notes first? People in Bor should go to the UN gate this afternoon and demand a clear answer.",
+      "People remember what happened in Western Equatoria when UN weapons were taken after an ambush and the same mission told the public not to worry. Now violence is rising again in Jonglei and people are asking what UNMISS vehicles are carrying and where they are moving. Bor citizens should demand answers at the UN gate before another 'incident' puts more weapons in rebel hands.",
     media: {
       type: "image",
       url: "assets/media/unmiss_protest.jpg",
@@ -239,7 +239,7 @@ const posts = [
     profileName: "Jonglei Sovereignty Forum",
     profileHandle: null,
     verified: false,
-    profilePicture: "assets/profiles/pp_crossedout_bluehelmet.jpg",
+    profilePicture: "assets/profiles/helmet_crossed.png",
     timestamp: "24 April 2026 at 14:01",
     content:
       "No UNMISS convoy should move through our areas in silence while our families are left in fear. Communities have a right to stop them and ask where they are going.",
@@ -267,7 +267,7 @@ const posts = [
     profileName: "Jonglei Alert 24",
     profileHandle: "@JongleiAlert24",
     verified: false,
-    profilePicture: "assets/profiles/pp_black_map_outline.jpg",
+    profilePicture: "assets/profiles/jonglei_state.jpeg",
     timestamp: "24 Apr 2026 · 14:05",
     content:
       "Vehicles moving again. Civilians get rumours, foreigners get warning. Remember that",
@@ -299,7 +299,7 @@ const posts = [
     profileName: "Jonglei Alert 24",
     profileHandle: "@JongleiAlert24",
     verified: false,
-    profilePicture: "assets/profiles/pp_black_map_outline.jpg",
+    profilePicture: "assets/profiles/jonglei_state.jpeg",
     timestamp: "24 Apr 2026 · 14:07",
     content:
       "Another convoy. Another statement. Another village emptying. Watch who leaves first.",
@@ -327,7 +327,7 @@ const posts = [
     profileName: "South Sudan Voices Abroad",
     profileHandle: "@SSVoicesAbroad",
     verified: false,
-    profilePicture: "assets/profiles/pp_diaspora_flag_black.jpg",
+    profilePicture: "assets/profiles/south_sudan_flag.webp",
     timestamp: "24 Apr 2026 · 14:15",
     content:
       "Communities in Jonglei cannot wait for statements while the roads empty. Local youth should organise watches tonight and protect families if the authorities fail again. #Jonglei",
@@ -353,12 +353,12 @@ const posts = [
     },
   },
   {
-    id: 15,
+    id: 13,
     platform: "facebook",
     profileName: "St. Bakhita Youth Choir",
     profileHandle: null,
     verified: false,
-    profilePicture: "assets/profiles/pp_church_choir_white_blue.jpg",
+    profilePicture: "assets/profiles/church_logo.webp",
     timestamp: "24 April 2026 at 14:18",
     content:
       "Translated from Juba Arabic:\nFamilies have arrived tired and frightened. Please do not share old photos or invented casualty figures. If you want to help, bring water, sorghum, and soap to the church compound before sunset.",
@@ -384,12 +384,12 @@ const posts = [
     },
   },
   {
-    id: 13,
+    id: 14,
     platform: "x",
-    profileName: "Radio Nile Desk",
-    profileHandle: "@RadioNileDesk",
+    profileName: "Radio Nile",
+    profileHandle: "@RadioNile",
     verified: false,
-    profilePicture: "assets/profiles/pp_radio_blue_mic.jpg",
+    profilePicture: "assets/profiles/blue_mic.avif",
     timestamp: "24 Apr 2026 · 14:21",
     content:
       "Renewed online alarm in Jonglei is reviving memories of the inflammatory remarks reported in January. Officials deny any order against civilians, while humanitarian concern and displacement persist. #SouthSudan",
@@ -412,12 +412,12 @@ const posts = [
     },
   },
   {
-    id: 14,
+    id: 15,
     platform: "facebook",
     profileName: "Nation Pulse South Sudan",
     profileHandle: null,
     verified: false,
-    profilePicture: "assets/profiles/pp_political_banner_red.jpg",
+    profilePicture: "assets/profiles/people_with_flag.webp",
     timestamp: "24 April 2026 at 14:24",
     content:
       "BREAKING: Sources say the December elections have been pushed back another 24 months because the government cannot control insecurity. If true, this means war first, democracy later.",
@@ -443,12 +443,12 @@ const posts = [
     },
   },
   {
-    id: 15,
+    id: 16,
     platform: "x",
     profileName: "SS 24 Alert",
     profileHandle: "@SS24Alert",
     verified: false,
-    profilePicture: "assets/profiles/pp_urgent_black_red.jpg",
+    profilePicture: "assets/profiles/ss_alert.png",
     timestamp: "24 Apr 2026 · 14:28",
     content:
       "JUST IN: Opposition-linked sources allege cash was distributed in Juba for a secret mission tied to a coup plot and possible attacks on senior leaders. Residents are urged to stay alert as fears of ethnic violence grow.",
@@ -474,12 +474,12 @@ const posts = [
     },
   },
   {
-    id: 16,
+    id: 17,
     platform: "x",
     profileName: "David K. Mwangi",
     profileHandle: "@DKMwangiPolicy",
     verified: true,
-    profilePicture: "assets/profiles/pp_intl_analyst_navy.jpg",
+    profilePicture: "assets/profiles/international_analysis.png",
     timestamp: "24 Apr 2026 · 14:29",
     content:
       "What stands out in today's South Sudan chatter is how local insecurity in Jonglei is being fused with national rumours about elections, elite plots, and protection failures. That mix is exactly what turns a local crisis into a national information shock.",
