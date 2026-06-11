@@ -11,7 +11,7 @@ const posts = [
       "UNIFIL has once again been found to support terrorists Lebanon – now the proof is undeniable!",
     media: {
       type: "image",
-      url: "assets/media/women_and_children_walking.png",
+      url: "assets/media/unifil_hzb_flag.jpeg",
     },
     metrics: {
       likes: 68,
